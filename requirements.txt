@@ -1,0 +1,15 @@
+flask==3.0.2
+pandas==2.0.3
+joblib==1.4.0
+numpy==1.24.4
+# 
+# #scipy==1.13.0
+
+# Optionals but recommended
+# keras==2.13.1
+# tensorboard==2.13.0
+# tensorboard-data-server==0.7.2
+# tensorflow==2.13.1
+# tensorflow-cpu-aws==2.13.1
+# tensorflow-estimator==2.13.0
+# tensorflow-io-gcs-filesystem==0.35.0
