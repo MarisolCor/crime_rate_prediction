@@ -3,7 +3,7 @@ pandas==2.0.3
 joblib==1.4.0
 numpy==1.24.4
 # 
-# #scipy==1.13.0
+scipy==1.13.0
 
 # Optionals but recommended
 # keras==2.13.1
