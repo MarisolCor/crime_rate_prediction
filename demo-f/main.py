@@ -1,8 +1,7 @@
 from flask import Flask, send_from_directory, request, jsonify
 from server import CrimePredictor
 import logging
-logger = logging.getLogger(__name__)
-logging.basicConfig(filename='app.log', encoding='utf-8', level=logging.INFO)
+logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
 app = Flask(__name__, static_url_path='/')
 app.static_folder = 'dist'
 
