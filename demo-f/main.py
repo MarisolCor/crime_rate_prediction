@@ -11,7 +11,7 @@ def root():
     return send_from_directory('dist', 'index.html')
 
 @app.route('/health')
-def root():
+def health():
     return "OK"
 
 
