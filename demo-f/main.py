@@ -28,4 +28,4 @@ def predict():
 
 if __name__ == '__main__':
     logging.info('starting application')  # will not print anything
-    app.run(port=8000, debug=True)
+    app.run(port=8000, debug=False)
