@@ -111,13 +111,31 @@ tensorflow-io-gcs-filesystem==0.35.0
 ```
 
 ### Running the project
+
+#### Local build
 To run the project you need to execute main.py file and then navigate to `http://localhost:8000`
 
 ```
   cd demo-f;
   python3 main.py;
 ```
+Note: on main.py  you can remove the argument `host=0.0.0.0` in case you face any host resolution error.
 
+#### Docker build
+In case you want to run it via Docker, just build the image using the Dockerfile inside demo-f, create the container and that's it.
+
+#### Deploying on AwsAppRunner
+* Point to the repository
+* Branch: main
+* Source directory: /demo-f
+
+Set the following data in the runner portal:
+![image](https://github.com/eshih22/crime_rate_prediction/assets/147443547/888e61bb-526f-4ca9-950c-fa102c4885ce)
+
+Note: set the port 8000 
+<img width="851" alt="image" src="https://github.com/eshih22/crime_rate_prediction/assets/147443547/109168aa-24ff-4d98-befe-bf08d8b9a700">
+
+### Preview
 <img width="961" alt="demo" src="https://github.com/eshih22/crime_rate_prediction/assets/147443547/5e761e12-0d96-4eeb-9d88-a5bff66b63ae">
 
 <img width="819" alt="graph 1" src="https://github.com/eshih22/crime_rate_prediction/assets/147443547/f6c51351-ea94-45ed-868b-afe81ad2763a">
